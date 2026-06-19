@@ -5,7 +5,7 @@ app.get('/', (req, res) => {
   res.send('Hello Rohit! Node.js app is running.');
 });
 app.get('/health', (req, res) => {
-  res.send('Hello Rohit! Node.js app helth is ok');
+  res.send('helth is ok');
 });
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
